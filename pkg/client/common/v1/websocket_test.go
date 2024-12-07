@@ -28,6 +28,7 @@ func TestWriteDeadline(t *testing.T) {
             return
         }
         defer conn.Close()
+        time.Sleep(20 * time.Second)
 
         // Read the message but delay the response
         _, _, err = conn.ReadMessage()
@@ -35,20 +36,17 @@ func TestWriteDeadline(t *testing.T) {
             t.Logf("Read error (expected due to timeout): %v", err)
             return
         }
-        time.Sleep(2 * time.Second)
     }))
     defer server.Close()
 
-	// Convert http://... to ws://...
 	url := strings.Replace(server.URL, "http://", "ws://", 1)
 
-	// Create client with a very short write deadline
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
 	options := &clientinterfaces.ClientOptions{
 		Host:          url,
-		WriteDeadline: 100 * time.Millisecond, // Very short deadline
+		WriteDeadline: 100 * time.Millisecond,
 	}
 
 	var handler commonv1interfaces.WebSocketHandler = &MockWebSocketHandler{}
@@ -63,9 +61,8 @@ func TestWriteDeadline(t *testing.T) {
 	largePayload := make([]byte, 1024*1024) // 1MB of data
 	err := client.WriteBinary(largePayload)
 
-	// Verify that we got a timeout error
 	if err == nil {
-		t.Error("Expected timeout error, got nil")
+		t.Fatal("Expected timeout error, got nil")
 	}
 
 	if !strings.Contains(err.Error(), "deadline exceeded") {
