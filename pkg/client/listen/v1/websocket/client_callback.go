@@ -18,9 +18,9 @@ import (
 	"github.com/dvonthenen/websocket"
 	klog "k8s.io/klog/v2"
 
-	msginterfaces "github.com/deepgram/deepgram-go-sdk/pkg/api/listen/v1/websocket/interfaces"
-	version "github.com/deepgram/deepgram-go-sdk/pkg/api/version"
-	common "github.com/deepgram/deepgram-go-sdk/pkg/client/common/v1"
+	msginterfaces "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/api/listen/v1/websocket/interfaces"
+	version "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/api/version"
+	common "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/common/v1"
 )
 
 // Connect performs a websocket connection with "DefaultConnectRetry" number of retries.

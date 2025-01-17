@@ -12,8 +12,8 @@
 package legacy
 
 import (
-	websocketv1 "github.com/deepgram/deepgram-go-sdk/pkg/api/listen/v1/websocket"
-	interfacesv1 "github.com/deepgram/deepgram-go-sdk/pkg/api/listen/v1/websocket/interfaces"
+	websocketv1 "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/api/listen/v1/websocket"
+	interfacesv1 "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/api/listen/v1/websocket/interfaces"
 )
 
 const (

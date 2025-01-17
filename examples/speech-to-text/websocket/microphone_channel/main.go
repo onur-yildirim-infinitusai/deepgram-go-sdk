@@ -15,10 +15,10 @@ import (
 
 	klog "k8s.io/klog/v2"
 
-	msginterfaces "github.com/deepgram/deepgram-go-sdk/pkg/api/listen/v1/websocket/interfaces"
-	microphone "github.com/deepgram/deepgram-go-sdk/pkg/audio/microphone"
-	interfaces "github.com/deepgram/deepgram-go-sdk/pkg/client/interfaces"
-	client "github.com/deepgram/deepgram-go-sdk/pkg/client/listen"
+	msginterfaces "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/api/listen/v1/websocket/interfaces"
+	microphone "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/audio/microphone"
+	interfaces "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/interfaces"
+	client "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/listen"
 )
 
 type MyHandler struct {
