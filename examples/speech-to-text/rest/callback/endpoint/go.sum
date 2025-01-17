@@ -7,8 +7,8 @@ github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311/go.mod h1:b583j
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/deepgram/deepgram-go-sdk v1.0.3 h1:5habC+chosDb/FAvU2sE1N0eZBrkFEpUgyBh3kHzKz0=
-github.com/deepgram/deepgram-go-sdk v1.0.3/go.mod h1:eYMx9tojR8urSmGlY35s2jz4bltSx8Lzt5JtJEmqmrI=
+github.com/onur-yildirim-infinitusai/deepgram-go-sdk v1.0.3 h1:5habC+chosDb/FAvU2sE1N0eZBrkFEpUgyBh3kHzKz0=
+github.com/onur-yildirim-infinitusai/deepgram-go-sdk v1.0.3/go.mod h1:eYMx9tojR8urSmGlY35s2jz4bltSx8Lzt5JtJEmqmrI=
 github.com/fatih/color v1.16.0 h1:zmkK9Ngbjj+K0yRhTVONQh1p/HknKYSlNT+vZCzyokM=
 github.com/fatih/color v1.16.0/go.mod h1:fL2Sau1YI5c0pdGEVCbKQbLXB6edEj1ZgiY4NijnWvE=
 github.com/gabriel-vasile/mimetype v1.4.2 h1:w5qFW6JKBz9Y393Y4q372O9A7cUSequkh1Q7OhCmWKU=

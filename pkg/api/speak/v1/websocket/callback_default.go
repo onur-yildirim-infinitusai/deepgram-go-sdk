@@ -13,7 +13,7 @@ import (
 	prettyjson "github.com/hokaccha/go-prettyjson"
 	klog "k8s.io/klog/v2"
 
-	interfaces "github.com/deepgram/deepgram-go-sdk/pkg/api/speak/v1/websocket/interfaces"
+	interfaces "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/api/speak/v1/websocket/interfaces"
 )
 
 // NewDefaultCallbackHandler creates a new DefaultCallbackHandler

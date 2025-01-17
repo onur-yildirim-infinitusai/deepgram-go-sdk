@@ -7,7 +7,7 @@ package restv1
 import (
 	"net/http"
 
-	interfaces "github.com/deepgram/deepgram-go-sdk/pkg/client/interfaces"
+	interfaces "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/interfaces"
 )
 
 // HTTPClient which extends HTTP client

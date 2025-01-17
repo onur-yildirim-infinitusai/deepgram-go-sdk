@@ -12,8 +12,8 @@
 package legacy
 
 import (
-	restv1 "github.com/deepgram/deepgram-go-sdk/pkg/api/listen/v1/rest"
-	client "github.com/deepgram/deepgram-go-sdk/pkg/client/prerecorded" //lint:ignore
+	restv1 "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/api/listen/v1/rest"
+	client "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/prerecorded" //lint:ignore
 )
 
 const (
