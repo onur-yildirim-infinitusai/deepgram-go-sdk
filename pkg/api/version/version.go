@@ -14,8 +14,8 @@ import (
 	"github.com/gorilla/schema"
 	klog "k8s.io/klog/v2"
 
-	interfaces "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/interfaces"
-	common "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/common"
+	interfaces "github.com/deepgram/deepgram-go-sdk/pkg/client/interfaces"
+	common "github.com/deepgram/deepgram-go-sdk/pkg/common"
 )
 
 // getAPIURL constructs the URL for API requests and handles versioning, path resolution,

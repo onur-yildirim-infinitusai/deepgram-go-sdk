@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"time"
 
-	interfaces "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/interfaces"
+	interfaces "github.com/deepgram/deepgram-go-sdk/pkg/client/interfaces"
 )
 
 // New allocated a Simple HTTP client

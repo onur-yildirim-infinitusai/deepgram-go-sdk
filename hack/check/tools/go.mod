@@ -1,4 +1,4 @@
-module github.com/onur-yildirim-infinitusai/deepgram-go-sdk/hack/tools
+module github.com/deepgram/deepgram-go-sdk/hack/tools
 
 go 1.19
 

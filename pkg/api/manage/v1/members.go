@@ -14,8 +14,8 @@ import (
 
 	klog "k8s.io/klog/v2"
 
-	api "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/api/manage/v1/interfaces"
-	version "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/api/version"
+	api "github.com/deepgram/deepgram-go-sdk/pkg/api/manage/v1/interfaces"
+	version "github.com/deepgram/deepgram-go-sdk/pkg/api/version"
 )
 
 // ListMembers lists all members for a project

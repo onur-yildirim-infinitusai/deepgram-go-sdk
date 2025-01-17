@@ -3,7 +3,7 @@ module github.com/deepgram-devs/deepgram-go-sdk/examples/prerecorded/callback/en
 go 1.18
 
 require (
-	github.com/onur-yildirim-infinitusai/deepgram-go-sdk v1.0.3
+	github.com/deepgram/deepgram-go-sdk v1.0.3
 	github.com/gin-gonic/gin v1.9.1
 	github.com/hokaccha/go-prettyjson v0.0.0-20211117102719-0474bc63780f
 )

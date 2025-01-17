@@ -11,15 +11,15 @@ import (
 	"encoding/json"
 	"io"
 	"net/http"
-	"runtime/debug"
 	"strings"
 	"time"
+	"runtime/debug"
 
 	"github.com/dvonthenen/websocket"
 	klog "k8s.io/klog/v2"
 
-	commonv1interfaces "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/common/v1/interfaces"
-	clientinterfaces "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/interfaces"
+	commonv1interfaces "github.com/deepgram/deepgram-go-sdk/pkg/client/common/v1/interfaces"
+	clientinterfaces "github.com/deepgram/deepgram-go-sdk/pkg/client/interfaces"
 )
 
 // gocritic:ignore
