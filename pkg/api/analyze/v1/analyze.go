@@ -11,9 +11,9 @@ import (
 
 	klog "k8s.io/klog/v2"
 
-	api "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/api/analyze/v1/interfaces"
-	analyze "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/analyze"
-	interfaces "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/interfaces"
+	api "github.com/deepgram/deepgram-go-sdk/pkg/api/analyze/v1/interfaces"
+	analyze "github.com/deepgram/deepgram-go-sdk/pkg/client/analyze"
+	interfaces "github.com/deepgram/deepgram-go-sdk/pkg/client/interfaces"
 )
 
 type Client struct {

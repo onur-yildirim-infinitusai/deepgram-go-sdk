@@ -12,7 +12,7 @@
 package prerecorded
 
 import (
-	common "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/common"
+	common "github.com/deepgram/deepgram-go-sdk/pkg/common"
 )
 
 // please see pkg/common/init.go for more information

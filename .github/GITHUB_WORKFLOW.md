@@ -2,9 +2,9 @@
 
 ![Git workflow](images/git_workflow.png)
 
-This is the standard GitHub workflow used by most projects on GitHub regardless of the [branching strategy](https://github.com/onur-yildirim-infinitusai/deepgram-go-sdk/blob/main/.github/BRANCH_AND_RELEASE_PROCESS.md) you decided to employ.
+This is the standard GitHub workflow used by most projects on GitHub regardless of the [branching strategy](https://github.com/deepgram/deepgram-go-sdk/blob/main/.github/BRANCH_AND_RELEASE_PROCESS.md) you decided to employ.
 
-However, it is important to understand [this project's branching process](https://github.com/onur-yildirim-infinitusai/deepgram-go-sdk/blob/main/.github/BRANCH_AND_RELEASE_PROCESS.md) to know where you need to create your branches from.
+However, it is important to understand [this project's branching process](https://github.com/deepgram/deepgram-go-sdk/blob/main/.github/BRANCH_AND_RELEASE_PROCESS.md) to know where you need to create your branches from.
 
 - [GitHub Workflow](#github-workflow)
   - [1. Fork in the Cloud](#1-fork-in-the-cloud)

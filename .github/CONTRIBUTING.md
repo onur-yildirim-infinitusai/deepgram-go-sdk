@@ -10,7 +10,7 @@ Want to contribute to this project? We ❤️ it!
 
 Before submitting code to this project, you should first complete the following prerequisites. Completing these steps will make your first contribution easier:
 
-- Read the [Code of Conduct](https://github.com/onur-yildirim-infinitusai/deepgram-go-sdk/blob/main/.github/CODE_OF_CONDUCT.md) at [https://github.com/onur-yildirim-infinitusai/deepgram-go-sdk/blob/main/.github/CODE_OF_CONDUCT.md](https://github.com/onur-yildirim-infinitusai/deepgram-go-sdk/blob/main/.github/CODE_OF_CONDUCT.md).
+- Read the [Code of Conduct](https://github.com/deepgram/deepgram-go-sdk/blob/main/.github/CODE_OF_CONDUCT.md) at [https://github.com/deepgram/deepgram-go-sdk/blob/main/.github/CODE_OF_CONDUCT.md](https://github.com/deepgram/deepgram-go-sdk/blob/main/.github/CODE_OF_CONDUCT.md).
 - [Sign up](http://github.com/signup) for a GitHub user account.
 
 ## Your First Contribution
@@ -25,7 +25,7 @@ Here are some things you can do today to get started contributing:
 - Write test coverage
 - Help triage issues
 
-If the above suggestions don't appeal to you, you can browse the issues labeled as a [good first issue](https://github.com/onur-yildirim-infinitusai/deepgram-go-sdk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) to see who is looking for help. The good first issue label also indicates that project maintainers have committed to providing extra assistance for new contributors. When you've found an issue to work on, you can assign it to yourself.
+If the above suggestions don't appeal to you, you can browse the issues labeled as a [good first issue](https://github.com/deepgram/deepgram-go-sdk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) to see who is looking for help. The good first issue label also indicates that project maintainers have committed to providing extra assistance for new contributors. When you've found an issue to work on, you can assign it to yourself.
 
 ### Contribution Types
 
@@ -47,4 +47,4 @@ Here are a few types of contributions that we would be interested in hearing abo
 
 ## Making Code Contributions
 
-for those interested in contributing code to the project, please review the [Code Contribution Guide](https://github.com/onur-yildirim-infinitusai/deepgram-go-sdk/blob/main/.github/CODE_CONTRIBUTIONS_GUIDE.md) for more details.
+for those interested in contributing code to the project, please review the [Code Contribution Guide](https://github.com/deepgram/deepgram-go-sdk/blob/main/.github/CODE_CONTRIBUTIONS_GUIDE.md) for more details.

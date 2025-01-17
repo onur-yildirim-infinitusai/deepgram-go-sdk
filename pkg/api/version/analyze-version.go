@@ -7,7 +7,7 @@ package version
 import (
 	"context"
 
-	interfaces "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/interfaces"
+	interfaces "github.com/deepgram/deepgram-go-sdk/pkg/client/interfaces"
 )
 
 /*

@@ -12,8 +12,8 @@ import (
 	"os"
 	"reflect"
 
-	interfaces "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/interfaces"
-	client "github.com/onur-yildirim-infinitusai/deepgram-go-sdk/pkg/client/listen"
+	interfaces "github.com/deepgram/deepgram-go-sdk/pkg/client/interfaces"
+	client "github.com/deepgram/deepgram-go-sdk/pkg/client/listen"
 )
 
 const (
