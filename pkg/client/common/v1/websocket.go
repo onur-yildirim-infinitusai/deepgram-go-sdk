@@ -40,7 +40,7 @@ func NewWS(ctx context.Context, ctxCancel context.CancelFunc, apiKey string, opt
 		ctxCancel:       ctxCancel,
 		retry:           true,
 		processMessages: processMessages,
-		router:          router,
+		router:          router, 
 	}
 
 	return &c
@@ -414,6 +414,14 @@ func (c *WSClient) WriteBinary(byData []byte) error {
 		return err
 	}
 
+	// Set write deadline if it is set in the client options
+	if c.cOptions.WriteDeadline > 0 {
+		if err := ws.SetWriteDeadline(time.Now().Add(c.cOptions.WriteDeadline)); err != nil {
+			klog.V(1).Infof("SetWriteDeadline failed. Err: %v\n", err)
+			return err
+		}
+	}
+
 	if err := ws.WriteMessage(
 		websocket.BinaryMessage,
 		byData,
@@ -456,6 +464,14 @@ func (c *WSClient) WriteJSON(payload interface{}) error {
 		klog.V(6).Infof("common.WriteJSON() LEAVE\n")
 
 		return err
+	}
+
+	// Set write deadline if it is set in the client options
+	if c.cOptions.WriteDeadline != 0 {
+		if err := ws.SetWriteDeadline(time.Now().Add(c.cOptions.WriteDeadline)); err != nil {
+			klog.V(1).Infof("SetWriteDeadline failed. Err: %v\n", err)
+			return err
+		}
 	}
 
 	if err := ws.WriteMessage(
